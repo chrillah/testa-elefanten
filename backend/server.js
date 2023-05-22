@@ -29,7 +29,7 @@ app.use((request, response, next)=>{
 
 const client = new Client({
     database: process.env.DATABASE,
-    host: process.env.HOST,
+    host: process.env.PGHOST,
     password: process.env.PASSWORD,
     port: process.env.PORT,
     user: process.env.USER
